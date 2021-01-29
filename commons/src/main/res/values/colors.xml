@@ -15,7 +15,7 @@
 
     <!-- white -->
     <color name="white">#FFFFFFFF</color>
-    
+
     <!-- Blacks -->
     <color name="black">#000000</color>
     <color name="semi_black">#DA000000</color>
