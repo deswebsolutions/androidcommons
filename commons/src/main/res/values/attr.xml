@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="body_text_light_color" format="color"/>
+    <attr name="body_text_color" format="color"/>
+    <attr name="body_text_hint_color" format="color"/>
+    <attr name="background_color" format="color"/>
+    <attr name="colorPrimaryLight" format="reference"/>
+    <attr name="primary_border_color" format="color"/>
+    <attr name="search_background" format="color"/>
+    <attr name="dialpad_shadow_ligher" format="color"/>
+    <attr name="contact_background_color" format="reference"/>
+    <attr name="contact_divide_line_color" format="reference"/>
+    <attr name="contact_icon_color" format="reference"/>
+    <attr name="contact_bg_color" format="reference"/>
+    <attr name="dialerpad_bg" format="reference"/>
+    <attr name="dialerkeys_bg" format="reference"/>
+    <attr name="alert_theme" format="reference"/>
+    <attr name="alert_buttons" format="reference"/>
+    <attr name="body_light_color" format="reference"/>
+    <attr name="editBackground" format="reference"/>
+    <attr name="subscription" format="reference"/>
+
+    <declare-styleable name="EmojiRainLayout">
+        <attr name="per" format="integer"/>
+        <attr name="duration" format="integer"/>
+        <attr name="dropDuration" format="integer"/>
+        <attr name="dropFrequency" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="PercentLayout_Layout">
+        <attr name="layout_widthPercent" format="fraction"/>
+        <attr name="layout_heightPercent" format="fraction"/>
+        <attr name="layout_marginPercent" format="fraction"/>
+        <attr name="layout_marginLeftPercent" format="fraction"/>
+        <attr name="layout_marginTopPercent" format="fraction"/>
+        <attr name="layout_marginRightPercent" format="fraction"/>
+        <attr name="layout_marginBottomPercent" format="fraction"/>
+        <attr name="layout_marginStartPercent" format="fraction"/>
+        <attr name="layout_marginEndPercent" format="fraction"/>
+        <attr name="layout_aspectRatio" format="fraction" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_text_color">@color/black</color>
+    <color name="default_background_color">@color/white</color>
+    <integer name="default_viewpager_page">0</integer>
+</resources>

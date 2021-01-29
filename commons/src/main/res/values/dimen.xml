@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- text size -->
+    <dimen name="bigger_text_size">16sp</dimen>
+
+    <!-- margin -->
+    <dimen name="activity_margin">16dp</dimen>
+
+    <!-- recyclerview -->
+    <dimen name="dragselect_hotspot_height">34sp</dimen>
+</resources>
