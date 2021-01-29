@@ -4,7 +4,7 @@ plugins {
     id 'kotlin-kapt'
     id 'com.github.dcendents.android-maven'
 }
-
+group = 'com.github.deswebsolutions'
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
