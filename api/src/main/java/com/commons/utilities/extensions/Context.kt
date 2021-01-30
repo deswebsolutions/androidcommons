@@ -65,8 +65,7 @@ val Context.shortcutManager: ShortcutManager
 get() = getSystemService(ShortcutManager::class.java) as ShortcutManager
 val Context.audioManager get()= getSystemService(Context.AUDIO_SERVICE) as AudioManager
 fun Context.geRecentCallsCursor() = CursorLoader(this, CallLog.Calls.CONTENT_URI.buildUpon().build(), null, null, null, null)
-val Context.defaultAvatarColor @RequiresApi(Build.VERSION_CODES.M)
-get() = getColor(R.color.colorPrimary)
+
 fun Context.hasPermission(permId: Int) = ContextCompat.checkSelfPermission(this,
     getPermissionString(permId)
 ) == PackageManager.PERMISSION_GRANTED
