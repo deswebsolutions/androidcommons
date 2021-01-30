@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#433F6A</color>
+
     <!-- SwitchCompat -->
     <color name="thumb_deactivated">#FFECECEC</color>
     <color name="track_deactivated">#FFB2B2B2</color>
